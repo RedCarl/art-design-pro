@@ -3,7 +3,7 @@ import { MenuThemeEnum, SystemThemeEnum } from '@/enums/appEnum'
 // 用户信息
 export interface UserInfo {
   userId: number // 用户ID
-  userName: string // 用户名
+  username: string // 用户名
   roles: string[] // 角色
   buttons: string[] // 按钮
 }
