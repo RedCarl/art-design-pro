@@ -258,6 +258,7 @@
             }
           } else {
             loading.value = false
+            ElMessage.error(res.msg)
             resetDragVerify()
           }
         } finally {
